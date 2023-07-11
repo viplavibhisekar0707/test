@@ -17,4 +17,14 @@ public class JenkinController {
     }
 
 
+    @GetMapping("/")
+    public ResponseEntity<String> getMainPage(){
+
+
+        return ResponseEntity.ok("Main Page of the application");
+
+
+    }
+
+
 }
