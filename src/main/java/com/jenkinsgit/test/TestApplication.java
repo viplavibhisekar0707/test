@@ -13,8 +13,6 @@ public class TestApplication extends SpringBootServletInitializer {
 	}
 
 	@Override
-
-
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(TestApplication.class);
 	}
